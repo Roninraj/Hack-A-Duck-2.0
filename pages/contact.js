@@ -29,9 +29,11 @@ export default function About() {
         <a href="#organizers"><BsChevronDoubleDown className='fadedown hidden sm:block' color='#F2F2F2' fontSize="10rem"/></a>      
       </div>
 
-        <div className="w-full h-screen bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[70%] sm:max-w-[80%] border-solid ml-5"></div>
-        <div className="w-full h-screen bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[70%] sm:max-w-[80%] ml-5"></div>
-        <div className="w-full h-screen bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[70%] sm:max-w-[80%] ml-5"></div>      
+        <div className="w-full h-screen bg-fixed bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[50%] sm:max-w-[90%] border-solid ml-16 mr-12">
+        <div className="border-2 shadow-md mb-5 mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white rounded-lg text-gray-900"></div>
+        </div>
+        <div className="w-full h-screen bg-fixed bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[50%] sm:max-w-[90%] ml-16 mr-12"></div>
+        <div className="w-full h-screen bg-fixed bg-[url('../public/contact.png')] bg-cover rounded-md my-10 max-w-[50%] sm:max-w-[90%] ml-16 mr-12"></div>      
     </>
 
   )
