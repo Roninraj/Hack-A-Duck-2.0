@@ -97,3 +97,54 @@ a {
     opacity: 1;
   }
 }
+
+.yolo{
+
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../public/about.jpg");
+  min-height: 300vh;
+
+}
+/* ========================================================= */
+
+.overtext{
+  position: relative;
+  bottom:75px;
+  right: 80px;
+  font-size: 5rem;
+  font-weight: 800;
+
+  transition: all 500ms ease-in-out;
+ 
+}
+
+@media(max-width:425px) {
+  .overtext{
+    /* position : static; */
+    right:0px;
+    bottom:0px;
+    font-size: 3rem;
+  }
+}
+
+.imgcomp:hover .overtext{
+  transform: scale(1.2);
+
+  bottom:50px;
+  /* left:600px; */
+  right: 0px;
+
+}
+
+.imgcomp:hover img{
+
+  transform: scale(0.9);
+
+}
+
+.imgcomp>img{
+  transition: all 500ms ease-in-out;
+
+}
